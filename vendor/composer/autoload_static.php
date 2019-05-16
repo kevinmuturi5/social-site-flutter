@@ -16,7 +16,7 @@ class ComposerStaticInit9e2aa93ab9de4c829b827e487ad66092
     public static $prefixDirsPsr4 = array (
         'PostgreSQLTutorial\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app',
+            0 => __DIR__ . '/../..' . '/blogish',
         ),
     );
 
