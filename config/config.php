@@ -4,7 +4,9 @@ session_start();
 
 $timezone = date_default_timezone_set("Europe/London");
 
-$con = mysqli_connect("localhost", "root", "", "social"); //Connection variable
+$con = mysqli_connect("ec2-174-129-240-67.compute-1.amazonaws.com", "nxvaerxycwfrcq
+", "916e1504c7075da675f905ab66a8157175a137fe98b43f22f54294e7344f0a0c
+", "d8re99qld0lkoh"); //Connection variable
 
 if(mysqli_connect_errno()) 
 {
